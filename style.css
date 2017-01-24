@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*Without image*/
+body {
+  background-color: #ffeadd;
+}
+.wrapper {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ffeadd;
+  width: 100%;
+}
+#jumbotron {
+  color: #dc4c57;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  position: relative;
+  margin-left: 8%;
+  letter-spacing: 1px;
+  top: 260px;
+}
+.typed-cursor {
+  display: none;
+}
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+.header {
+  margin: 0 auto;
+}
+.header .header-menu {
+  float: right;
+  margin-right: 5%;
+}
+.header .header-menu a {
+  text-decoration: none;
+  color: #68bdc4;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s ease;
+}
+.header .header-menu a:hover {
+  color: #dc4c57;
+}
+.header .header-menu ul {
+  float: left;
+  list-style: none;
+}
+.header .header-menu ul li {
+  float: left;
+  padding: 24px 0px 24px 20px;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
